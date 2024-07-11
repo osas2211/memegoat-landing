@@ -151,6 +151,12 @@ export const Hero = () => {
             <div className="hero-next">for memes on BITCOIN</div>
           </div>
         </div>
+
+        <div className="md:hidden block mt-10 absolute bottom-[3rem] left-[50%] translate-x-[-50%] text-center text-xl text-primary-20">
+          <Avatar src="/logo.svg" size={100}></Avatar>
+          <p className="">Secure Layer</p>
+          <p>for Memes on Bitcoin</p>
+        </div>
       </div>
       <div className="absolute top-[-50%] left-[50%] translate-x-[-50%] bg-primary-30/15 h-[50rem] w-[70rem] rounded-full z-[0] blur-[300px]"></div>
     </div>
