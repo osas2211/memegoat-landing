@@ -22,6 +22,7 @@ export const About = () => {
         },
       }}
       className="flex flex-col-reverse md:flex-row items-center gap-10"
+      id="about"
     >
       <motion.div className="relative w-full h-[40rem]">
         <Image fill src={"/logo.svg"} className="w-full h-full" alt="" />

@@ -20,6 +20,7 @@ export const RoadMap = () => {
           },
         },
       }}
+      id="road-map"
     >
       <h3 className="text-xl md:text-4xl orbitron special-text uppercase text-center mb-10 md:mt-[10rem]">
         # RoadMap
