@@ -31,12 +31,18 @@ export const About = () => {
         <h3 className="text-xl md:text-4xl orbitron special-text">
           # About MemeGoat
         </h3>
-        <p className="text-[#f3f2f2] my-4">
-          The $Goat is a meme finance layer on bitcoin, focused on creating an
-          Healthy, secured and all inclusive meme ecosystem on the leading
-          bitcoin layer 2 (stacks), our goal is to bring instant utility and
-          ease of launch to meme communities building on bitcoin.
-        </p>
+        <h4 className="text-lg text-silver">
+          Secure layer for memes on Bitcoin
+        </h4>
+        <div className="my-4">
+          <p className="text-[#f3f2f2] ">
+            MemeGoat is the first all-in-one finance layer on bitcoin, launch
+            token, Lock, Raise liquidity, Create staking pool, Play games, Earn,
+            Promote, Swap, AntiRug proof. Pioneering the first secure layer for
+            communities to grow and provide instant utilities on the leading
+            Bitcoin layer-2 (stacks).
+          </p>
+        </div>
         <button className="h-[40px] px-6 bg-transparent border-primary-70 text-primary-20 border-[1px] flex items-center gap-2">
           <BsDiscord className="inline" />
           <span className="">Join Discord</span>

@@ -8,10 +8,11 @@ import { CiLock } from "react-icons/ci"
 import { CgCommunity } from "react-icons/cg"
 import { GiMining } from "react-icons/gi"
 import Image from "next/image"
+import { BiGame } from "react-icons/bi"
 
 export const ProjectUtility = () => {
   return (
-    <div className="relative">
+    <div className="relative" id="utilities">
       <div className="absolute -top-[10rem] right-0 md:right-[-46rem] hidden xl:block z-[0] opacity-75">
         <motion.div
           initial={{ y: 0, opacity: 0 }}
@@ -46,11 +47,12 @@ export const ProjectUtility = () => {
             <BsRocketTakeoff className="text-center text-3xl text-primary-30" />
             <div>
               <h4 className="neonText text-lg md:text-xl">
-                Full scale meme launchpad
+                Full scale fair-launch launchpad on Bitcoin
               </h4>
               <p>
-                Create, launch and bootstrap meme projects with no extra line of
-                codes
+                Launch a token, create a token sale, raise liquidity with
+                in-built anti-rug functionalities, and get instant listing on
+                your favourite dex.
               </p>
             </div>
           </div>
@@ -58,27 +60,34 @@ export const ProjectUtility = () => {
             <FaDonate className="text-center text-3xl text-primary-30" />
             <div>
               <h4 className="neonText text-lg md:text-lg">
-                First meme staking protocol on bitcoin
+                Full scale staking protocol on Bitcoin/Stacks
               </h4>
-              <p>Stake meme tokens earn rewards</p>
+              <p>
+                Create staking pools for your projects and communities. Earn
+                rewards from your favourite staking pool. With enabled
+                multi-rewards pools.
+              </p>
             </div>
           </div>
           <div className="p-4 md:px-6 bg-[#202020] text-center md:h-[15rem] flex items-center justify-center flex-col gap-5 border-[1px] border-primary-90">
             <RiExchangeDollarFill className="text-center text-3xl text-primary-30" />
             <div>
-              <h4 className="neonText text-lg md:text-xl">Meme Dex</h4>
-              <p>Trade meme tokens pairs with ease</p>
+              <h4 className="neonText text-lg md:text-xl">Aggregator Dex</h4>
+              <p>
+                Trade sip-10 tokens with the best rate. Have access to multiple
+                Dexs. We enable multi-hops and multi-dex swaps.
+              </p>
             </div>
           </div>
           <div className="p-4 md:px-6 bg-[#202020] text-center md:h-[15rem] flex items-center justify-center flex-col gap-5">
             <CiLock className="text-center text-3xl text-primary-30" />
             <div>
               <h4 className="neonText text-lg md:text-xl">
-                Anti rug liquidity locker
+                Anti rug token locker
               </h4>
               <p>
-                Projects and meme developers lock liquidity, creating a more
-                secured meme ecosystem
+                Our locker offers Token Vesting, Lock splitting, Relocking, and
+                Lock ownership transfer
               </p>
             </div>
           </div>
@@ -86,7 +95,8 @@ export const ProjectUtility = () => {
             <CgCommunity className="text-center text-3xl text-primary-30" />
             <div>
               <h4 className="neonText text-lg md:text-lg">
-                Leading Web3 platform for building solid meme communities
+                Leading socialfi application for promoting and building solid
+                communities.
               </h4>
               <p>
                 Launch community campaigns, create community task, get involved,
@@ -95,13 +105,10 @@ export const ProjectUtility = () => {
             </div>
           </div>
           <div className="p-4 md:px-6 bg-[#202020] text-center md:h-[15rem] flex items-center justify-center flex-col gap-5">
-            <GiMining className="text-center text-3xl text-primary-30" />
+            <BiGame className="text-center text-3xl text-primary-30" />
             <div>
-              <h4 className="neonText text-lg md:text-xl">Liquidity farming</h4>
-              <p>
-                Create and add liquidity to meme projects, earn rewards and
-                foster growth
-              </p>
+              <h4 className="neonText text-lg md:text-xl">Meme Goat Games</h4>
+              <p>Play a large variety of games, compete and earn rewards</p>
             </div>
           </div>
         </div>

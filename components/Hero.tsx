@@ -95,12 +95,12 @@ export const Hero = () => {
     <div className="overflow-hidden">
       <div className="md:h-[100vh] relative">
         <nav className="hero-menu relative z-[20]">
-          <div className="hero-menu-left hero-menu-item  hidden md:block">
+          <div className="hidden md:inline-flex gap-0">
             <Link
-              href={"#road-map"}
+              href={"#utilities"}
               className="hero-menu-link capitalize hover:text-primary-50"
             >
-              road map
+              Utilities
             </Link>
             <Link
               href={"https://docs.memegoat.io"}
@@ -108,6 +108,27 @@ export const Hero = () => {
               className="hero-menu-link capitalize hover:text-primary-50"
             >
               Documentation
+            </Link>
+            <Link
+              href={"https://socialfi.memegoat.io/"}
+              target="_blank"
+              className="hero-menu-link capitalize hover:text-primary-50"
+            >
+              SocialFi
+            </Link>
+
+            <Link
+              href={"https://medium.com/@goatcoinstx"}
+              target="_blank"
+              className="hero-menu-link capitalize hover:text-primary-50"
+            >
+              Blog
+            </Link>
+            <Link
+              href={""}
+              className="hero-menu-link capitalize text-silver cursor-not-allowed"
+            >
+              NFTs (Coming soon)
             </Link>
           </div>
           <div className="hero-menu-center hero-menu-item">

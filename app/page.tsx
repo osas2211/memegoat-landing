@@ -1,6 +1,7 @@
 import { About } from "@/components/About"
 import { Footer } from "@/components/Footer"
 import { Hero } from "@/components/Hero"
+import { Integrations } from "@/components/Integrations"
 import { ProjectUtility } from "@/components/ProjectUtility"
 import { RoadMap } from "@/components/RoadMap"
 import { TokenUtilities } from "@/components/TokenUtilities"
@@ -14,7 +15,8 @@ export default function Home() {
           <About />
           <ProjectUtility />
           <TokenUtilities />
-          <RoadMap />
+          {/* <RoadMap /> */}
+          <Integrations />
         </div>
       </div>
       <Footer />

@@ -5,7 +5,7 @@ import { BsRocketTakeoff } from "react-icons/bs"
 import { FaDonate } from "react-icons/fa"
 import { RiExchangeDollarFill, RiGovernmentFill } from "react-icons/ri"
 import { CiLock } from "react-icons/ci"
-import { CgCommunity } from "react-icons/cg"
+import { CgCommunity, CgGames } from "react-icons/cg"
 import { GiMining } from "react-icons/gi"
 import { MdPool } from "react-icons/md"
 import { BiBulb, BiShareAlt } from "react-icons/bi"
@@ -56,12 +56,13 @@ export const TokenUtilities = () => {
           </div>
         </div>
         <div className="p-4 md:px-6 bg-[#202020] text-center  flex items-center justify-center flex-col gap-5 border-[1px] border-primary-90">
-          <RiGovernmentFill className="text-center text-3xl text-primary-30" />
+          <CgGames className="text-center text-3xl text-primary-30" />
           <div>
-            <h4 className="neonText text-lg mb-4">Governance</h4>
+            <h4 className="neonText text-lg mb-4">Gamefi</h4>
             <p className="text-sm">
-              $Goat holders vote 🗳 in the continuous development of the
-              ecosystem and future of the finance layer of bitcoin
+              In-built token utilities on the meme goat gamefi layer which
+              enables participation, in-game asset aquisition and token
+              deflation.
             </p>
           </div>
         </div>
