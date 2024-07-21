@@ -97,7 +97,7 @@ export const Hero = () => {
         <nav className="hero-menu relative z-[20]">
           <div className="hidden md:inline-flex gap-0">
             <Link
-              href={"#utilities"}
+              href={"/utilities"}
               className="hero-menu-link capitalize hover:text-primary-50"
             >
               Utilities

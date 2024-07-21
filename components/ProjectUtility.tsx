@@ -43,10 +43,16 @@ export const ProjectUtility = () => {
           # Project Utilities
         </h3>
         <div className="grid md:grid-cols-3 md:gap-5 gap-5">
-          <div className="p-4 md:px-6 bg-[#202020] text-center md:h-[15rem] flex items-center justify-center flex-col gap-5 border-[1px] border-primary-90">
-            <BsRocketTakeoff className="text-center text-3xl text-primary-30" />
+          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] flex items-center justify-center flex-col gap-5 border-[1px] border-primary-70 shadow-md">
+            <Image
+              src={"/images/utilities/launchpad.png"}
+              alt=""
+              fill
+              className="absolute top-0 left-0 scale-[1.6] z-[0] opacity-10"
+            />
+            {/* <BsRocketTakeoff className="text-center text-3xl text-primary-30" /> */}
             <div>
-              <h4 className="neonText text-lg md:text-xl">
+              <h4 className="neonText mb-4 text-lg md:text-xl">
                 Full scale fair-launch launchpad on Bitcoin
               </h4>
               <p>
@@ -56,10 +62,16 @@ export const ProjectUtility = () => {
               </p>
             </div>
           </div>
-          <div className="p-4 md:px-6 bg-[#202020] text-center md:h-[15rem] flex items-center justify-center flex-col gap-5">
-            <FaDonate className="text-center text-3xl text-primary-30" />
+          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] flex items-center justify-center flex-col gap-5 md:mt-[1rem]">
+            <Image
+              src={"/images/utilities/staking.png"}
+              alt=""
+              fill
+              className="absolute top-0 left-0 scale-[1.6] z-[0] opacity-10"
+            />
+            {/* <FaDonate className="text-center text-3xl text-primary-30" /> */}
             <div>
-              <h4 className="neonText text-lg md:text-lg">
+              <h4 className="neonText mb-4 text-lg md:text-lg">
                 Full scale staking protocol on Bitcoin/Stacks
               </h4>
               <p>
@@ -69,20 +81,34 @@ export const ProjectUtility = () => {
               </p>
             </div>
           </div>
-          <div className="p-4 md:px-6 bg-[#202020] text-center md:h-[15rem] flex items-center justify-center flex-col gap-5 border-[1px] border-primary-90">
-            <RiExchangeDollarFill className="text-center text-3xl text-primary-30" />
+          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] flex items-center justify-center flex-col gap-5 border-[1px] border-primary-70 shadow-md md:mt-[2rem]">
+            <Image
+              src={"/images/utilities/dex.png"}
+              alt=""
+              fill
+              className="absolute top-0 left-0 scale-[1.6] z-[0] opacity-10"
+            />
+            {/* <RiExchangeDollarFill className="text-center text-3xl text-primary-30" /> */}
             <div>
-              <h4 className="neonText text-lg md:text-xl">Aggregator Dex</h4>
+              <h4 className="neonText mb-4 text-lg md:text-xl">
+                Aggregator Dex
+              </h4>
               <p>
                 Trade sip-10 tokens with the best rate. Have access to multiple
                 Dexs. We enable multi-hops and multi-dex swaps.
               </p>
             </div>
           </div>
-          <div className="p-4 md:px-6 bg-[#202020] text-center md:h-[15rem] flex items-center justify-center flex-col gap-5">
-            <CiLock className="text-center text-3xl text-primary-30" />
+          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] flex items-center justify-center flex-col gap-5">
+            <Image
+              src={"/images/utilities/locker.png"}
+              alt=""
+              fill
+              className="absolute top-0 left-0 scale-[1.6] z-[0] opacity-10"
+            />
+            {/* <CiLock className="text-center text-3xl text-primary-30" /> */}
             <div>
-              <h4 className="neonText text-lg md:text-xl">
+              <h4 className="neonText mb-4 text-lg md:text-xl">
                 Anti rug token locker
               </h4>
               <p>
@@ -91,10 +117,16 @@ export const ProjectUtility = () => {
               </p>
             </div>
           </div>
-          <div className="p-4 md:px-6 bg-[#202020] text-center md:h-[15rem] flex items-center justify-center flex-col gap-5 border-[1px] border-primary-90">
-            <CgCommunity className="text-center text-3xl text-primary-30" />
+          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] flex items-center justify-center flex-col gap-5 border-[1px] border-primary-70 shadow-md md:mt-[1rem]">
+            <Image
+              src={"/images/utilities/sociafi.png"}
+              alt=""
+              fill
+              className="absolute top-0 left-0 scale-[1.6] z-[0] opacity-10"
+            />
+            {/* <CgCommunity className="text-center text-3xl text-primary-30" /> */}
             <div>
-              <h4 className="neonText text-lg md:text-lg">
+              <h4 className="neonText mb-4 text-lg md:text-lg">
                 Leading socialfi application for promoting and building solid
                 communities.
               </h4>
@@ -104,10 +136,18 @@ export const ProjectUtility = () => {
               </p>
             </div>
           </div>
-          <div className="p-4 md:px-6 bg-[#202020] text-center md:h-[15rem] flex items-center justify-center flex-col gap-5">
-            <BiGame className="text-center text-3xl text-primary-30" />
+          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] flex items-center justify-center flex-col gap-5 md:mt-[2rem]">
+            <Image
+              src={"/images/utilities/game.png"}
+              alt=""
+              fill
+              className="absolute top-0 left-0 scale-[1.6] z-[0] opacity-10"
+            />
+            {/* <BiGame className="text-center text-3xl text-primary-30" /> */}
             <div>
-              <h4 className="neonText text-lg md:text-xl">Meme Goat Games</h4>
+              <h4 className="neonText mb-4 text-lg md:text-xl">
+                Meme Goat Games
+              </h4>
               <p>Play a large variety of games, compete and earn rewards</p>
             </div>
           </div>
@@ -115,4 +155,8 @@ export const ProjectUtility = () => {
       </motion.div>
     </div>
   )
+}
+
+const Utility = () => {
+  return <div></div>
 }
