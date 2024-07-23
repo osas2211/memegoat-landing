@@ -158,7 +158,7 @@ export const Hero = () => {
             <div className="hero-wrapper-img">
               <div className="hero-box"></div>
               <div>
-                <img className="hero-image" src="images/goat2.png" />
+                <Image className="hero-image" src="/images/goat2.png" alt={""} width={400} height={400} />
               </div>
             </div>
           </div>
