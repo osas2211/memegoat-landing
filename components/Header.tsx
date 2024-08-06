@@ -11,6 +11,13 @@ export const Header = () => {
       <nav className="hero-menu relative z-[20]">
         <div className="hidden md:inline-flex gap-0">
           <Link
+            href={"https://docs.memegoat.io"}
+            target="_blank"
+            className="hero-menu-link capitalize hover:text-primary-50"
+          >
+            Documentation
+          </Link>
+          <Link
             href={"https://games.memegoat.io/"}
             target="_blank"
             className="hero-menu-link capitalize hover:text-primary-50"
@@ -99,19 +106,15 @@ const MobileNav = () => {
           content: { background: "#141414", color: "white" },
         }}
         closeIcon={<CgClose size={20} color="#fff" />}
-        footer={
-          <div className="p-4">
-            <Link
-              href={"https://app.memegoat.io"}
-              target="_blank"
-              className="text-primary-50 hover:text-primary-50 no-underline inline-block py-2 px-4 border-[1px] border-primary-50"
-            >
-              Launch App
-            </Link>
-          </div>
-        }
       >
         <div className="flex flex-col gap-5 p-4">
+          <Link
+            href={"https://docs.memegoat.io"}
+            target="_blank"
+            className="capitalize hover:text-primary-50"
+          >
+            Documentation
+          </Link>
           <Link
             href={"https://games.memegoat.io/"}
             target="_blank"
@@ -136,6 +139,13 @@ const MobileNav = () => {
           </Link>
           <Link href={""} className="capitalize text-silver cursor-not-allowed">
             NFTs (Coming soon)
+          </Link>
+          <Link
+            href={"https://app.memegoat.io"}
+            target="_blank"
+            className="text-primary-50 text-center hover:text-primary-50 no-underline inline-block py-2 px-4 border-[1px] border-primary-50"
+          >
+            Launch App
           </Link>
         </div>
       </Drawer>
