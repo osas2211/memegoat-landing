@@ -152,6 +152,14 @@ p.hero-title {
   font-size: 300px;
 }
 
+.yellow-text {
+  color: rgb(240, 226, 106);
+  text-shadow: 0 0 7px rgb(240, 226, 106), 0 0 10px rgb(240, 226, 106),
+    0 0 21px rgb(240, 226, 106), 0 0 42px #ffffff9c, 0 0 2px #ffffff9c,
+    0 0 2px #ffffff9c, 0 0 52px #ffffff9c, 0 0 51px #ffffff9c;
+  font-family: "Voyage";
+}
+
 .hero-title .hero-letter {
   display: inline-block;
   line-height: 1em;

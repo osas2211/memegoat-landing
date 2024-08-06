@@ -81,7 +81,7 @@ export const Hero = () => {
       y: 30,
       ease: Expo.easeInOut,
       duration: 2,
-      delay: 4.2,
+      delay: 3.2,
       stagger: 0.1,
     })
     gsap.from(".hero-title", {
@@ -106,7 +106,13 @@ export const Hero = () => {
             <div className="hero-wrapper-img">
               <div className="hero-box"></div>
               <div>
-                <Image className="hero-image" src="/images/goat2.png" alt={""} width={400} height={400} />
+                <Image
+                  className="hero-image"
+                  src="/images/goat2.png"
+                  alt={""}
+                  width={400}
+                  height={400}
+                />
               </div>
             </div>
           </div>
@@ -140,12 +146,12 @@ export const Hero = () => {
                 transition={{ duration: 1, delay: 0 }}
                 className="lg:w-[30%] text-center"
               >
-                <h3 className="text-2xl md:text-4xl orbitron leading-normal">
+                <p className="text-3xl md:text-4xl orbitron leading-normal yellow-text orbitron">
                   Welcome
-                </h3>
-                <h3 className="text-2xl md:text-4xl orbitron leading-normal">
+                </p>
+                <p className="text-3xl md:text-4xl orbitron leading-normal yellow-text orbitron">
                   To Meme Goat STX
-                </h3>
+                </p>
                 <p className="text-white/80 text-sm mt-6 leading-6">
                   MemeGoat is the first all-in-one finance layer on bitcoin,
                   launch token, Lock, Raise liquidity, Create staking pool, Play

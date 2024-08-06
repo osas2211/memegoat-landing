@@ -2,7 +2,7 @@
 import React from "react"
 import { motion } from "framer-motion"
 import Link from "next/link"
-import { Image } from "antd"
+import { Avatar, Image } from "antd"
 
 export const Integrations = () => {
   return (
@@ -77,12 +77,8 @@ export const Integrations = () => {
         </Link>
         <div className="flex items-center justify-center gap-3 bg-[#201e1e] w-full p-3 py-7 border-[1px] md:border-0 border-primary-80/70">
           <div className="flex items-center justify-center gap-3">
-            <Image
-              src={"/images/leopold.jpg"}
-              alt=""
-              preview={false}
-              width={"3rem"}
-            />
+            <Avatar size={45} src={"/images/leopold.jpg"} />
+
             <span>STX TOOLS by Leopold</span>
           </div>
         </div>
