@@ -75,13 +75,17 @@ export const Integrations = () => {
             <span>Hiro</span>
           </div>
         </Link>
-        <div className="flex items-center justify-center gap-3 bg-[#201e1e] w-full p-3 py-7 border-[1px] md:border-0 border-primary-80/70">
+        <Link
+          href="http://stxtools.io"
+          target="_blank"
+          className="flex items-center justify-center gap-3 bg-[#201e1e] w-full p-3 py-7 border-[1px] md:border-0 border-primary-80/70"
+        >
           <div className="flex items-center justify-center gap-3">
             <Avatar size={45} src={"/images/leopold.jpg"} />
 
             <span>STX TOOLS by Leopold</span>
           </div>
-        </div>
+        </Link>
       </div>
     </motion.div>
   )
