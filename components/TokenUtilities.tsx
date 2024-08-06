@@ -72,10 +72,10 @@ export const TokenUtilities = () => {
             <h4 className="neonText text-lg mb-4">
               Two way staking utility approach
             </h4>
-            <p className="text-sm">
+            <section className="text-sm">
               <p>stake $Goat earn $Goat rewards </p>{" "}
               <p>stake $Goat earn other meme tokens</p>
-            </p>
+            </section>
           </div>
         </div>
       </div>
