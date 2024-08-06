@@ -83,7 +83,7 @@ export const Integrations = () => {
           <div className="flex items-center justify-center gap-3">
             <Avatar size={45} src={"/images/leopold.jpg"} />
 
-            <span>STX TOOLS by Leopold</span>
+            <span className="italic">STX TOOLS by Leopold</span>
           </div>
         </Link>
       </div>
