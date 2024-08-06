@@ -13,7 +13,7 @@ export default function Home() {
       <div className="bg-[#141414] my-10 md:py-10 py-6 md:pb-[5rem]">
         <div className="max-w-[1440px] px-5 space-y-10 mx-auto">
           <About />
-          {/* <ProjectUtility /> */}
+          <ProjectUtility />
           <TokenUtilities />
           {/* <RoadMap /> */}
           <Integrations />

@@ -13,11 +13,11 @@ import { BiGame } from "react-icons/bi"
 export const ProjectUtility = () => {
   return (
     <div className="relative" id="utilities">
-      <div className="absolute -top-[10rem] right-0 md:right-[-46rem] hidden xl:block z-[0] opacity-75">
+      <div className="absolute top-[10rem] right-0 md:right-[-46rem] hidden xl:block z-[0] opacity-75">
         <motion.div
           initial={{ y: 0, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duration: 1, delay: 2.5 }}
+          transition={{ duration: 1, delay: 1.5 }}
           className="relative w-[170px] h-[170px] md:w-[60rem] md:h-[60rem]"
         >
           <Image src="/logo.svg" className="w-full h-full" alt="" fill />
@@ -37,13 +37,13 @@ export const ProjectUtility = () => {
             },
           },
         }}
-        className="relative z-[10]"
+        className="relative z-[10] py-5"
       >
-        <h3 className="text-xl md:text-4xl orbitron special-text uppercase text-center mb-10">
+        <h3 className="text-xl md:text-4xl orbitron special-text uppercase text-center my-10">
           # Project Utilities
         </h3>
         <div className="grid md:grid-cols-3 md:gap-5 gap-5">
-          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] flex items-center justify-center flex-col gap-5 border-[1px] border-primary-70 shadow-md">
+          <div className="overflow-hidden relative p-4 md:px-6 py-6 bg-[#202020] text-center md:h-[25rem] min-h-[13rem] flex items-center justify-center flex-col gap-5 border-[1px] border-primary-70/50 shadow-md">
             <Image
               src={"/images/utilities/launchpad.png"}
               alt=""
@@ -62,7 +62,7 @@ export const ProjectUtility = () => {
               </p>
             </div>
           </div>
-          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] flex items-center justify-center flex-col gap-5 md:mt-[1rem]">
+          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] min-h-[10rem] flex items-center justify-center flex-col gap-5 md:mt-[1rem]">
             <Image
               src={"/images/utilities/staking.png"}
               alt=""
@@ -81,7 +81,7 @@ export const ProjectUtility = () => {
               </p>
             </div>
           </div>
-          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] flex items-center justify-center flex-col gap-5 border-[1px] border-primary-70 shadow-md md:mt-[2rem]">
+          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] min-h-[10rem] flex items-center justify-center flex-col gap-5 border-[1px] border-primary-70/50 shadow-md md:mt-[2rem]">
             <Image
               src={"/images/utilities/dex.png"}
               alt=""
@@ -99,7 +99,7 @@ export const ProjectUtility = () => {
               </p>
             </div>
           </div>
-          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] flex items-center justify-center flex-col gap-5">
+          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] min-h-[10rem] flex items-center justify-center flex-col gap-5">
             <Image
               src={"/images/utilities/locker.png"}
               alt=""
@@ -117,7 +117,7 @@ export const ProjectUtility = () => {
               </p>
             </div>
           </div>
-          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] flex items-center justify-center flex-col gap-5 border-[1px] border-primary-70 shadow-md md:mt-[1rem]">
+          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] min-h-[10rem] flex items-center justify-center flex-col gap-5 border-[1px] border-primary-70/50 shadow-md md:mt-[1rem]">
             <Image
               src={"/images/utilities/sociafi.png"}
               alt=""
@@ -136,7 +136,7 @@ export const ProjectUtility = () => {
               </p>
             </div>
           </div>
-          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] flex items-center justify-center flex-col gap-5 md:mt-[2rem]">
+          <div className="overflow-hidden relative p-4 md:px-6 bg-[#202020] text-center md:h-[25rem] min-h-[10rem] flex items-center justify-center flex-col gap-5 md:mt-[2rem]">
             <Image
               src={"/images/utilities/game.png"}
               alt=""

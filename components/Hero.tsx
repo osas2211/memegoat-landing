@@ -7,6 +7,7 @@ import { Avatar } from "antd"
 import Link from "next/link"
 import { motion } from "framer-motion"
 import Image from "next/image"
+import { Header } from "./Header"
 
 gsap.registerPlugin(useGSAP)
 
@@ -94,60 +95,7 @@ export const Hero = () => {
   return (
     <div className="overflow-hidden">
       <div className="md:h-[100vh] relative">
-        <nav className="hero-menu relative z-[20]">
-          <div className="hidden md:inline-flex gap-0">
-            <Link
-              href={"/utilities"}
-              className="hero-menu-link capitalize hover:text-primary-50"
-            >
-              Utilities
-            </Link>
-            <Link
-              href={"https://docs.memegoat.io"}
-              target="_blank"
-              className="hero-menu-link capitalize hover:text-primary-50"
-            >
-              Documentation
-            </Link>
-            <Link
-              href={"https://socialfi.memegoat.io/"}
-              target="_blank"
-              className="hero-menu-link capitalize hover:text-primary-50"
-            >
-              SocialFi
-            </Link>
-
-            <Link
-              href={"https://medium.com/@goatcoinstx"}
-              target="_blank"
-              className="hero-menu-link capitalize hover:text-primary-50"
-            >
-              Blog
-            </Link>
-            <Link
-              href={""}
-              className="hero-menu-link capitalize text-silver cursor-not-allowed"
-            >
-              NFTs (Coming soon)
-            </Link>
-          </div>
-          <div className="hero-menu-center hero-menu-item">
-            <div className="brand-logo">
-              <Avatar src="/logo.svg" size={82} />
-            </div>
-          </div>
-          <div className="hero-menu-right hero-menu-item">
-            <div>
-              <Link
-                href={"https://app.memegoat.io"}
-                target="_blank"
-                className="text-primary-50 no-underline inline-block py-2 px-4 border-[1px] border-primary-50"
-              >
-                Launch App
-              </Link>
-            </div>
-          </div>
-        </nav>
+        <Header />
 
         <div className=" md:block hidden">
           <div className="hero-images">
@@ -199,23 +147,17 @@ export const Hero = () => {
                   To Meme Goat STX
                 </h3>
                 <p className="text-white/80 text-sm mt-6 leading-6">
-                  Embark on a journey where every interaction with MemeGoat is a
-                  masterpiece, and the community thrives in the spirit of
-                  innovation.
+                  MemeGoat is the first all-in-one finance layer on bitcoin,
+                  launch token, Lock, Raise liquidity, Create staking pool, Play
+                  games, Earn, Promote, Swap, AntiRug proof.
                 </p>
-                <Link
-                  href={"#road-map"}
-                  className="text-primary-50 no-underline inline-block py-2 px-4 border-[1px] border-primary-50 mt-5"
-                >
-                  Roat Map
-                </Link>
               </motion.div>
             </div>
           </div>
         </div>
 
-        <div className="md:hidden fixed top-0 left-0 w-full h-[50px] blur-[200px] bg-primary-20"></div>
-        <div className="md:hidden fixed top-[50%] right-[30%] h-[15rem] w-[15rem] blur-[250px] bg-primary-20"></div>
+        <div className="hidden fixed top-0 left-0 w-full h-[50px] blur-[200px] bg-primary-80"></div>
+        <div className="hidden fixed top-[50%] right-[30%] h-[15rem] w-[15rem] blur-[250px] bg-primary-80"></div>
         <div className="md:hidden absolute top-[10vh] right-0 md:right-[-30rem] z-[0]">
           <motion.div
             initial={{ y: 200, opacity: 0 }}

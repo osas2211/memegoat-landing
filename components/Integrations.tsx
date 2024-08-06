@@ -25,11 +25,11 @@ export const Integrations = () => {
       <h3 className="text-xl md:text-4xl orbitron special-text uppercase text-center mb-10 md:mt-[10rem]">
         # Integrations
       </h3>
-      <div className="grid grid-cols-3">
+      <div className="grid md:grid-cols-4">
         <Link
           href={"https://alexlab.co/"}
           target="_blank"
-          className="flex items-center justify-center gap-3 bg-[#201e1e] w-full p-3 py-7 border-[1px] border-primary-80/70"
+          className="flex items-center justify-center gap-3 bg-[#161515] w-full p-3 py-7 border-[1px] border-primary-80/70"
         >
           <div className="flex items-center justify-center gap-3">
             <Image
@@ -49,7 +49,7 @@ export const Integrations = () => {
         <Link
           href={"https://velar.co/"}
           target="_blank"
-          className="flex items-center justify-center gap-3 bg-[#161515] w-full p-3 py-7 border-[1px] border-primary-80/70 border-x-0"
+          className="flex items-center justify-center gap-3 bg-[#201e1e] w-full p-3 py-7 border-[1px] border-primary-80/70 md:border-0"
         >
           <div className="">
             <Image
@@ -63,7 +63,7 @@ export const Integrations = () => {
         <Link
           href={"https://www.hiro.so/"}
           target="_blank"
-          className="flex items-center justify-center gap-3 bg-[#201e1e] w-full p-3 py-7 border-[1px] border-primary-80/70"
+          className="flex items-center justify-center gap-3 bg-[#161515] w-full p-3 py-7 border-[1px] border-primary-80/70"
         >
           <div className="flex items-center justify-center gap-3">
             <Image
@@ -75,6 +75,17 @@ export const Integrations = () => {
             <span>Hiro</span>
           </div>
         </Link>
+        <div className="flex items-center justify-center gap-3 bg-[#201e1e] w-full p-3 py-7 border-[1px] md:border-0 border-primary-80/70">
+          <div className="flex items-center justify-center gap-3">
+            <Image
+              src={"/images/leopold.jpg"}
+              alt=""
+              preview={false}
+              width={"3rem"}
+            />
+            <span>STX TOOLS by Leopold</span>
+          </div>
+        </div>
       </div>
     </motion.div>
   )
